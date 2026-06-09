@@ -20,6 +20,10 @@ a {
 .header, .hero, .info, .quote, .cta{
     padding-left: 100px;
     padding-right: 100px;
+    min-height: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
 }
 
 .hero, .footer, .header {
@@ -28,9 +32,11 @@ a {
 
 .header {
     padding-top: 20px;
+    padding-bottom: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    min-height: 0;
 }
 
 .header .left {
@@ -48,13 +54,9 @@ a {
 }
 
 .hero {
-    display: flex;
     gap: 20px;
-    min-height: 400px;
     justify-content: space-between;
     align-items: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
 }
 
 .hero .left {
