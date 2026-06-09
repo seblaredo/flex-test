@@ -141,6 +141,7 @@ a {
     flex-direction: column;
     background-color: #E5E7EB;
     justify-content: center;
+    gap: 10px;
 }
 
 .quote .text{
