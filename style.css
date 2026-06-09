@@ -16,7 +16,7 @@ a {
     color: inherit;
 }
 
-.header, .hero, .info, .quote, .cta{
+.header, .hero, .info, .quote, .cta {
     padding-left: 100px;
     padding-right: 100px;
     min-height: 400px;
@@ -148,9 +148,54 @@ a {
     font-weight: 300;
     font-size: 36px;
 }
+
 .quote .name {
     color: #1f2937;
     font-weight: 900;
     font-size: 25px;
     align-self: end;
+}
+
+.cta {
+    justify-content: center;
+    align-items: center;
+}
+
+.cta .box {
+    display: flex;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    height: 200px;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    border-radius: 15px;
+}
+
+.cta .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    padding-left: 50px;
+}
+
+.cta .left h3 {
+    font-size: 20px;
+}
+
+.cta .right {
+    padding-right: 50px;
+}
+
+.cta .right button{
+    background-color: transparent;
+    color: #F9FAF8;
+    border-radius: 6px;
+    width: 80px;
+    border: 1px solid #F9FAF8;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
