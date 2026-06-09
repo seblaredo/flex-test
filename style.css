@@ -199,3 +199,12 @@ a {
     padding-top: 5px;
     padding-bottom: 5px;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+    color: #F9FAF8;
+    font-size: 12px;
+}
